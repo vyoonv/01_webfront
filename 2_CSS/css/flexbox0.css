@@ -1,0 +1,149 @@
+div{
+    border : 1px solid black;
+    box-sizing: border-box; 
+    /* content + padding + border 합으로 width/height 지정 */
+}
+.container-1 {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.header-1, .footer-1 {
+    background-color: gray;
+    flex-basis: 20%;
+}
+
+.body-1 {
+    flex-basis: 60%;
+    display: flex;
+}
+
+.body-1-1 {
+    background-color: aqua;
+    flex-basis: 30%;
+}
+.body-1-2 {
+    background-color: rgb(7, 109, 109);
+    flex-basis: 50%;
+}
+.body-1-3 {
+    background-color: rgb(4, 58, 58);
+    flex-basis: 20%;
+}
+
+.con-1 {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.c-head {
+    background-color: red;
+    flex-basis: 15%;
+}
+.c-body {
+    flex-basis: 85%;
+    display: flex;
+}
+.c-b1 {
+    flex-basis: 25%;
+    background-color: yellow;
+}
+.c-b2 {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.c-b-1 {
+    background-color: yellowgreen;
+    flex-basis: 80%;
+}
+.c-b-2 {
+    background-color: blue;
+    flex-basis: 20%;
+}
+
+
+
+.con-2 {
+    display: flex;
+    width: 800px;
+    height: 550px;
+    flex-direction: column;
+}
+.c-hd {
+    background-color: rgb(255, 252, 94);
+    flex-basis: 25%;
+}
+.c-bd {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: row;
+}
+.cbd1 {
+    background-color: rgb(82, 113, 250);
+    flex-basis: 25%;
+}
+.cbd2 {
+    display: flex;
+    flex-direction: column;   
+    flex-basis: 75%;
+}
+.cbd2-1 {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.cbd2-2 {
+    flex-basis: 50%;
+    background-color: blueviolet;
+}
+.cbd2-1-1 {
+    flex-basis: 80%;
+    background-color: aquamarine;
+}
+.cbd2-1-2 {
+    flex-basis: 20%;
+    background-color: orangered;
+}
+
+
+.cn {
+    display: flex;
+    width: 800px;
+    height: 580px;
+    flex-direction: column;
+}
+
+.hd, .ft {
+    flex-basis: 15%;
+    background-color: aquamarine;
+}
+
+.bd {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bd1 {
+    flex-basis: 25%;
+    background-color: aqua;
+}
+.bd2 {
+    flex-basis: 75%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bd2-1, .bd2-2, .bd2-3 { 
+    width: 180px;
+    height: 180px;
+
+}
+
+
