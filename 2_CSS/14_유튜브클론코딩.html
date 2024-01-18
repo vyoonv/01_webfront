@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>14_유튜브클론코딩</title>
+
+        <link rel="stylesheet" href="css/youtubeclone.css">
+        <script src="https://kit.fontawesome.com/d9d92fd72c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <header>
+                
+                <!-- 바 버튼 (사이드바)-->
+                <section>
+                    <a href="#">
+                        <button id="sidebar-btn" class="fa-solid fa-bars"></button>
+                    </a>
+                </section>
+                <!-- 로고 (시작페이지)-->
+                <section class="yt-logo">
+                    <a href="http://youtube.com">
+                        <button id="logo-btn" class="fa-brands fa-youtube"></button> 
+                    </a>
+                    <a>YouTube</a>
+                </section>
+                <!-- 빈공간 -->
+                <section></section>
+                <!-- 검색창 -->
+                <section>
+                    <section class="search-area">
+                        <form action="#" name="search-form">
+                            <fieldset>
+                                <input type="search" id="query" name="query"
+                                autocomplete="off" placeholder="검색">
+                                <button id="keyboard-btn" class="fa-solid fa-keyboard"></button>
+                                <button id="search-btn" class="fa-solid fa-magnifying-glass"></button>
+                            </fieldset>
+                                
+                        </form>
+                    </section>
+                </section>
+                <!-- 마이크 버튼 -->
+                <section>
+                    <button id="mic-btn" class="fa-solid fa-microphone"></button>
+                </section>
+                <!-- 빈공간 -->
+                <section></section>
+                <!-- 만들기 버튼 -->
+                <section>
+                    <button id="vid-btn" class="fa-solid fa-video"></button>
+                </section>
+                <!-- 알림 버튼-->
+                <section>
+                    <button id="alarm-btn" class="fa-regular fa-bell"></button>
+                </section>
+                <!-- 마이페이지 버튼 -->
+                <section>
+                    <button id="user-btn" class="fa-regular fa-user"></button>
+                </section>          
+            </header>
+
+            <main>
+                <section class="main-area">
+                    <!-- 메인 영역 -->
+                    <section class="video">
+                        <!-- 비디오 -->
+                        <div>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/3x1-m0RxTMM?si=d5I35zCIfI662X5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <!-- 영상제목 -->
+                    <section class="title">
+                        <div style="text-align: left;">240118 mini핑계고 : 유재석, 조정석, 조세호 @뜬뜬편집실 (OneCam)</div>
+                    </section>
+                    <!-- 채널로고/채널이름/구독버튼/좋_싫버튼/공유/더보기버튼 -->
+                    <nav class="plus">
+                        <ul>
+                            <!-- 로고 -->
+                            <li>
+                                <button id="ch-logo">
+                                    <img src="../images/ddnddn_logo.jpg">
+                                </button>
+                            </li>
+                            <!-- 채널이름/구독자수 -->
+                            <li>
+                                <li id="chname"> 
+                                    뜬뜬 DdeunDdeun <br>
+                                    구독자 167만명
+                                </li>
+                                
+                            </li>
+                            <!-- 구독 버튼 -->
+                            <li>
+                                <button id="sub-btn" class="fa-solid fa-user-plus"></button>
+                            </li>
+                            <li id="blank"></li>
+                            <!-- 좋/싫 -->
+                            <li id="liha-btn">
+                                <button id="like-btn" class="fa-solid fa-thumbs-up"></button>10만
+                                <button id="hate-btn" class="fa-regular fa-thumbs-down"></button>
+                            </li>
+                            <!-- 공유 -->
+                            <li>
+                                <button id="share-btn" class="fa-solid fa-share"></button>
+                                공유
+                            </li>
+                            <!-- 더보기 -->
+                            <li>
+                                <button id="plus-btn" class="fa-solid fa-plus"></button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- 영상 설명 -->
+                    <section style="text-align: left;" class="script">
+                                                  
+                            <pre>
+                                조회수 4011,735회 4시간 전 
+                                주제 : 우리끼리 신나서 떠들어제낀 추억 이야기
+                                때 : 새해 기운 가득한 1월 초 어느 날의 오후
+                                장소 : 뜬뜬 편집실 
+                            </pre>
+
+                    </section>
+                    <br>
+                    <!-- 댓글 -->
+                    <section class="reply">
+
+                        <form action="#">
+                            <fieldset>
+                                <div class="rep-1">
+                                    <div class="rep-1-1">댓글 100개</div>
+                                    <div class="rep-1-2">
+                                        <button>정렬 기준</button>
+                                    </div>
+                                </div>
+                                <div class="rep-input">
+                                    <button id="user-btn" class="fa-regular fa-user"></button>
+                                    <input style="text" placeholder="댓글 추가...">
+                                </div>
+                                <div class="rep-2">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </fieldset>
+
+                        </form>
+
+                    </section>
+                </section>
+                <!-- 추천영상 영역/관련컨텐츠버튼_모두/해당채널 관련 --> 
+                <section class="rec-area">
+                    <section class="rec-media"></section>
+                </section>
+
+            </main>
+
+            
+
+
+  
+    </body>
+</html>
