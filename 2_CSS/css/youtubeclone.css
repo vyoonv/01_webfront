@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -235,7 +235,7 @@ nav ul:hover {
 }
 
 .reply {
-    width: 1080px;
+    width: 1300px;
     height: 300px;
     background-color: #ddd;
     border: 1px solid transparent;
@@ -243,7 +243,13 @@ nav ul:hover {
     display: flex;
 }
 
-.rep-1 {
-    flex-direction: row;
-
+.rep-1 , .rep-input {
+    display: flex;
+    width: 1250px;
+    text-align: left;
 }
+#write {
+    width: 90%;
+    margin: 3px;
+}
+

@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    display: flex;   
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+}
+
+.head-1 {
+    flex-basis: 10%;
+    background-color: rgb(255, 89, 29);
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.head-1 a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+header {
+    display: flex;
+}
+
+.head-2 {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.sns {
+    flex-basis: 33%
+}
+
+.sns a {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#insta {
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#twit {
+    color: #00acee;
+    cursor: pointer;
+
+}
+
+#youtube {
+    color: red;
+    cursor: pointer;
+}
+
+.search-area {
+    flex-basis: 33%;
+}
+.search-area fieldset {
+    border: 2px solid  rgb(255, 89, 29);
+    border-radius: 10px;
+    margin: 0;
+    padding: 2px;
+
+    display: flex; 
+}
+#query {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none; 
+    outline: none; 
+    flex-basis: 90%;
+}
+#keyboard-btn {
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    flex-basis: 5%;
+    color: rgb(255, 89, 29);
+}
+#search-btn {
+    font-size: 15px;
+    flex-basis: 5%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    color: rgb(255, 89, 29);
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33%;
+    justify-content: end;
+}
+#log-in {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: rgb(255, 151, 113);
+    cursor: pointer;
+}
+#sign-up-1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: rgb(255, 151, 113);
+    cursor: pointer;
+}
+
+nav {
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav li {
+    flex-basis: 150px;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    height: 100%;
+    display: block; 
+
+    text-align: center;
+    line-height: 40px; 
+
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 151, 113);
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.imgs {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 550px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
