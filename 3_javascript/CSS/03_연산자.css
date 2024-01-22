@@ -1,0 +1,10 @@
+.calculator{
+    width: 300px;
+    height: 150px;
+    border: 3px solid black;
+    margin: auto;
+    padding: 25px;
+  }
+  .btn-row{
+    display: flex;
+  }
