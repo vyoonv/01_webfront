@@ -17,10 +17,11 @@ function plusFn() {
     const value2 = number2.value;
 
     console.log(value1, value2);
-    console.log("두 수의 합 : ", value1+value2);
 
+    console.log("두 수의 합 : ", value1+value2);
     // -> input 요소에 작성된 값 무조건 문자열(string)
     //더했을 때 이어쓰기 되는 문제가 발생한다 
+
     //[해결방법]
     //문자열(string)을 숫자(number)로 변경하는 코드를 수행 
     //숫자만 작성된 문자열("123")을 
@@ -144,10 +145,8 @@ function check() {
     console.log("count--:", count--); //51출력 후 50으로 감소
     console.log("count--:", count); //50
 
-
-
-
-
+    //---------------------------------------------
+    
     let a = 10;
     let b =5;
     let c = ++a * b-- ;
@@ -159,4 +158,18 @@ function check() {
     console.log(a, b, c);
 
 
+}
+
+
+function printJSObject() {
+    const userName = document.getElementById("userName");
+    const userAge = document.getElementById("userAge");
+    const userGender = document.getElementById("userGender");
+
+    const userInfo = {
+        이름 : userName.value,
+        나이 : userAge.value,
+        성별 : userGender.value,
+    };
+    console.log(userInfo);
 }
